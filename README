@@ -16,3 +16,6 @@ Plik link.csv zawiera linki pobranych już wcześniej artykułów, co pozwala na
 #ToDo
 Muliti-threading scheduler.py
 "article" tag missing yahoofinance.py
+Znormalizować format danych pod fine-tuning gpt-3 
+Zaktualizować infastrukture na AWS
+Znaleźć sposób na zminimalizowanie kosztów Google Pegasus
