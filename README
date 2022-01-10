@@ -1,0 +1,18 @@
+Opis programu
+
+Głównym komponentem tego programu jest scheduler.py. Wywołuje on investing_scraper,cnbcscraper,seekingalphascraper.py oraz yahoofinancescraper.py
+
+Przyjmuje dwa argumenty number oraz ticker. Argument number mówi ile stron artykułów pobrać, a ticker na temat jakiej spółki. Wszystkie dane są umieszczane w bazie nosql mongodb, 
+która jest uruchomiona lokalnie. 
+
+Prawie każdy wystęujący scraper wykorzystuje biblioteke Selenium, która odpowiada za symulowanie przeglądarki, co pozwala nam ominąć zabezpieczenia anty-scrapingowe oraz np.
+kliknąć jakiś guzik na stronach dynamicznych
+
+Plik link.csv zawiera linki pobranych już wcześniej artykułów, co pozwala nam uniknąć duplikatów
+
+
+
+
+#ToDo
+Muliti-threading scheduler.py
+"article" tag missing yahoofinance.py
